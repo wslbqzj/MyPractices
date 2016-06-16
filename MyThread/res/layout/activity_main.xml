@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="获取数据" />
+	<EditText 
+	    android:id="@+id/edit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="http://182.136.86.13:8080/lg0812/spring/AopTest/test0"/>
+
+	<TextView
+	    android:id="@+id/tv1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/edit"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="148dp"
+	    android:text="TextView" />
+
+</RelativeLayout>
