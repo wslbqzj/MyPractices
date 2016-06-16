@@ -1,0 +1,7 @@
+package com.lwj.mylock;
+
+import android.app.admin.DeviceAdminReceiver;
+
+public class AdminReceiver extends DeviceAdminReceiver{
+
+}
